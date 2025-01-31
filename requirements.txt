@@ -1,0 +1,6 @@
+pandas
+playwright
+webdriver-manager
+bs4
+redis
+python-dotenv
