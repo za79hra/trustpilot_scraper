@@ -1,11 +1,11 @@
 import random
 import time
 from database.redis.collection_redis import CollectionRedisDao
-from scraper.base_extractor import BaseExtractor
 from config import BASE_URL, OUTPUT_FILE, MAX_PAGES, MIN_TIME_SLEEP_NEXT_BUTTON, \
     MAX_TIME_SLEEP_NEXT_BUTTON
 from scraper.utils import save_json, clean_text, logger
 from typing import Optional
+from scraper.base_extractor import BaseExtractor
 
 
 class ReviewExtractor(BaseExtractor):
